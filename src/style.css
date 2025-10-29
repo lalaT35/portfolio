@@ -299,6 +299,73 @@
   transition: all 0.3s ease;
 }
 
+/* ===========================
+   Contact Section
+=========================== */
+.contact {
+  padding: 6rem 2rem;
+  background: #121214;
+  text-align: center;
+}
+
+.contact .container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.contact p {
+  max-width: 550px;
+  margin: 0 auto 2.5rem;
+  opacity: 0.85;
+  font-size: 1.1rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  background: var(--nav-bg);
+  color: var(--text-color);
+  font-size: 1rem;
+  transition: border 0.3s ease;
+}
+
+.contact-form .form-group input:focus,
+.contact-form .form-group textarea:focus {
+  border-color: var(--accent-color);
+  outline: none;
+}
+
+.contact-form .cta-button {
+  align-self: center;
+}
+
+
+
+.cta-button {
+  padding: 15px;
+  background-color: var(--accent-color);  
+  color: #000;
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #38b2ac;
+}
+
+
 /* Hide nav links by default on small screens */
 @media (max-width: 768px) {
   nav {
